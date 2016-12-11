@@ -29,11 +29,10 @@ body {
 
 h1 {
   position: absolute;
-  left: 40px;
   top: 110px;
   z-index: 200;
-  font-family: "Pacifico", cursive;
-  font-size: 2.5em;
+  font-family: Pacifico, cursive;
+  font-size: 3em;
 }
 
 ul {
@@ -50,7 +49,7 @@ li {
   float: left;
   width: 50%;
   text-align: center;
-  font-family: "Georgia", Serif;
+  font-family: Georgia, serif;
   font-weight: bold;
 }
 
@@ -82,7 +81,7 @@ blockquote {
   position: absolute;
   top: 415px;
   right: 16px;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   font-size: 1.4em;
   text-align: center;
   margin: 0;
@@ -94,7 +93,7 @@ blockquote {
 }
 
 h2 {
-  font-family: "Pacifico", cursive;
+  font-family: Pacifico, cursive;
   font-size: 1.7em;
   text-align: center;
 }
@@ -144,7 +143,7 @@ h2 {
 
 h3 {
   display: block;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   font-size: 1.4em;
   font-weight: bold;
   text-align: center;
@@ -152,8 +151,8 @@ h3 {
 
 p {
   display: block;
- font-size: 1em;
- font-weight: bold;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .link-card {
@@ -183,7 +182,7 @@ p {
 h4 {
   text-align: center;
   font-size: 1.5em;
-  font-family: "pacifico", cursive;
+  font-family: pacifico, cursive;
   margin-bottom: 0;
 }
 
@@ -201,4 +200,20 @@ h4 {
 
 .image-card-large {
   display: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    top: 130px;
+    left: 50px;
+  }
+
+  .logo-right {
+    width: 140px;
+  }
+
+  .logo-left {
+    width: 140px;
+  }
 }
