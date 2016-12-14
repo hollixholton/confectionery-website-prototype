@@ -414,6 +414,24 @@ h4 {
   }
 }
 
+@media only screen and (min-width: 71em) {
+
+  blockquote {
+    top: 1500px;
+    left: 55px;
+  }
+
+  .logo-left {
+    width: 30%;
+  }
+
+  .logo-right {
+    width: 30%;
+  }
+
+  .person-icon {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
